@@ -1,4 +1,11 @@
 {
+  "homepage": "https://rahul4902.github.io/chat",
+  "name":"My-chat",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start"
+  },
   "dependencies": {
     "react-infinite-scroller": "^1.2.6"
   }
